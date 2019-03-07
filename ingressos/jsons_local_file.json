@@ -1,0 +1,41 @@
+[
+    {
+        "id": 881,
+        "nome": "Amantaní",
+        "cidade": "Caapiranga",
+        "uf": "AM",
+        "endereco": "teste",
+        "numero": "10",
+        "complemento": "",
+        "bairro": "Bairro A",
+        "cep": "",
+        "lat": -15.6662082,
+        "lng": -69.710821
+    },
+    {
+        "id": 908,
+        "nome": "Olympic Gymnastics Arena",
+        "cidade": "Porto Alegre",
+        "uf": "RS",
+        "endereco": "teste",
+        "numero": 10,
+        "complemento": "",
+        "bairro": "Bairro A",
+        "cep": "",
+        "lat": -15.6662082,
+        "lng": -69.710821
+    },
+    {
+        "id": 918,
+        "nome": "Expogramado RS",
+        "cidade": "Gramado",
+        "uf": "RS",
+        "endereco": "teste",
+        "numero": 10,
+        "complemento": "",
+        "bairro": "Bairro A",
+        "cep": "",
+        "lat": -15.6662082,
+        "lng": -69.710821
+    }
+]

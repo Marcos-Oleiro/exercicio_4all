@@ -7,16 +7,34 @@ use Illuminate\Database\Eloquent\Model;
 class Local extends Model
 {
     //
-    public $local_id;
-    public $local_nome;
-    public $local_cidade;
-    public $local_uf;
-    public $local_endereco;
-    public $local_numero;
-    public $local_complemento;
-    public $local_bairro;
-    public $local_cep;
-    public $local_lat;
+    public $id;
+    public $nome;
+    public $cidade;
+    public $uf;
+    public $endereco;
+    public $numero;
+    public $complemento;
+    public $bairro;
+    public $cep;
+    public $lat;
 
-    public $local_lng;
+    public $lng;
+
+    public $timestamps = false;
+
+    protected $fillable = [
+        'id',
+        'nome',
+        'cidade',
+        'uf',
+        'endereco',
+        'numero',
+        'complemento',
+        'bairro',
+        'cep',
+        'lat',
+        'lng'
+    ];
+
 }
+

@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <p> olá  4all</p>
-    {{  $ev->evento_id }}
-</body>
-</html>
+@extends('layout')
+
+
+@section('title','Eventos Disponíveis')
+
+@section('content')
+
+    <div>
+
+        <h1> Veja os eventos disponíveis para compra de ingressos</h1>
+
+    </div>
+@endsection

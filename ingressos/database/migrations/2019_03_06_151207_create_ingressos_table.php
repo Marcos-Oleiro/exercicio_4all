@@ -18,10 +18,15 @@ class CreateIngressosTable extends Migration
             // Declaração das colunas da tabela
 
             $table->increments('id');
-            $table->unsignedBigInteger('id_evento')->nullable($value = false);
+            $table->unsignedInteger('id_evento')->nullable($value = false);
             $table->unsignedSmallInteger('numero_ingresso')->nullable($value = false);
             $table->boolean('vendido')->nullable($value = false)->default($value = false);
             $table->unsignedMediumInteger('versao')->nullable($value = false);
+
+            // constraints
+
+            $table->foreign('id_evento')->references('id')->on('eventos');
+
 
         });
     }
@@ -35,4 +40,6 @@ class CreateIngressosTable extends Migration
     {
         Schema::dropIfExists('ingressos');
     }
+
+
 }

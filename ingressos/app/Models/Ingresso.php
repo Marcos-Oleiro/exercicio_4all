@@ -14,4 +14,14 @@ class Ingresso extends Model
     public $vendido;
     public $versao;
 
+    public $timestamps = false;
+
+    protected $fillable = [
+        'id',
+        'id_evento',
+        'numero_ingresso',
+        'vendido',
+        'versao'
+    ];
+
 }
