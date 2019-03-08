@@ -17,3 +17,10 @@
 
 
 Route::get('/','EventosController@index');
+
+Route::get('/eventos/{id}', ['uses' => 'EventosController@showDetails']);
+
+Route::get('/ingressos/comprar/{id_evento}', ['uses' => 'IngressosController@comprar']);
+
+
+Route::post('/ingressos/confirmarCompra','IngressosController@confirmarCompra');
